@@ -1,10 +1,5 @@
 # AI Agent Evaluation Platform
 
-Evaluate recorded agent runs with deterministic metrics for task success, expected-vs-observed mismatches, latency, supplied cost estimates and tool errors. Sample runs are synthetic. This tool does not execute agents or judge semantic answer quality.
+A deterministic evaluator for recorded agent runs: success rate, mismatches, latency, estimated cost and tool errors. Synthetic sample data included. This evaluates supplied run records; it does not execute agents or judge semantic quality.
 
-## Run
-`pip install -r requirements.txt`
-`python -m agent_eval.cli examples/runs.jsonl --out reports/evaluation.md`
-`pytest`
-
-Provider cost must be populated from actual usage metadata. Keep a stable case set to compare agent versions.
+Run: `pip install -r requirements.txt`; `python -m agent_eval.cli examples/runs.jsonl`; `pytest`.

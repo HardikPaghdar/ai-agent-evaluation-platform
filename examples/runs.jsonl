@@ -1,0 +1,4 @@
+{"case_id":"faq-01","expected_success":true,"success":true,"latency_ms":410,"estimated_cost_usd":0.0004,"tool_calls":1,"tool_errors":0,"notes":"Returned cited policy answer"}
+{"case_id":"booking-02","expected_success":true,"success":false,"latency_ms":1840,"estimated_cost_usd":0.0021,"tool_calls":3,"tool_errors":1,"notes":"Calendar tool timed out"}
+{"case_id":"refund-03","expected_success":false,"success":false,"latency_ms":920,"estimated_cost_usd":0.0008,"tool_calls":2,"tool_errors":0,"notes":"Correctly declined unsupported request"}
+{"case_id":"handoff-04","expected_success":true,"success":true,"latency_ms":670,"estimated_cost_usd":0.0012,"tool_calls":2,"tool_errors":0,"notes":"Created handoff ticket"}
